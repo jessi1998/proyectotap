@@ -16,11 +16,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Data
 @Document
-public class Estudiante {
+public class Asignatura {
     @Id
-    private String fechaIngreso;
-    private List<Persona> listapersona;
-    private List<Equipo> listaequipo;
-    private List<Curso> listacurso;
-    private List<Carrera> listacarrera;
+    private String nombre_asigantura;
+    private String nomenclatura_asignatura;
+    
+    private List<Docente> listaDocente;
 }

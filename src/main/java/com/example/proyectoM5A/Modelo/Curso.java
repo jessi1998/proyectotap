@@ -5,7 +5,6 @@
  */
 package com.example.proyectoM5A.Modelo;
 
-import java.util.List;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -15,12 +14,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
  * @author Jessica Alvarez
  */
 @Data
-@Document
-public class Estudiante {
-    @Id
-    private String fechaIngreso;
-    private List<Persona> listapersona;
-    private List<Equipo> listaequipo;
-    private List<Curso> listacurso;
-    private List<Carrera> listacarrera;
+
+public class Curso {
+@Id
+private String nombre;
+
 }
