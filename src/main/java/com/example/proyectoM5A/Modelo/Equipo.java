@@ -20,5 +20,6 @@ public class Equipo {
 @Id
 private int numero_equipo;
 private String codigo_equipo;
-private List<Laboratorio> listalaboratorio;
+private int id_laboratorio;
+
 }

@@ -20,6 +20,7 @@ public class Asignatura {
     @Id
     private String nombre_asigantura;
     private String nomenclatura_asignatura;
+    private int id_docente;
+    private int id_carrera;
     
-    private List<Docente> listaDocente;
 }

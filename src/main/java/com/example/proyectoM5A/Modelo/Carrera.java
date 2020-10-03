@@ -21,5 +21,5 @@ public class Carrera {
 private String nombre_carrera;
 private String modalidad_carrera;
 private String jornada_carrera;
-private List<Asignatura> listaasignatura;
+private List<Nivel> listanivel;
 }

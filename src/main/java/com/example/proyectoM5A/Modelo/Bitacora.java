@@ -21,5 +21,6 @@ public class Bitacora {
   @Id
   private Date fecha;
   private String descripcion;
-  private List<Estudiante> listaestudiante;
+  private int id_estudiante;
+  private int id_equipo;
 }
