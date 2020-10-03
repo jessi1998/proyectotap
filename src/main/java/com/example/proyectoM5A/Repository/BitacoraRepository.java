@@ -5,7 +5,7 @@
  */
 package com.example.proyectoM5A.Repository;
 
-import com.example.proyectoM5A.Modelo.Estudiante;
+import com.example.proyectoM5A.Modelo.Bitacora;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
@@ -14,6 +14,8 @@ import org.springframework.stereotype.Repository;
  * @author Jessica Alvarez
  */
 @Repository
-public interface EstudianteRepository  extends MongoRepository<Estudiante, String>{
+public interface BitacoraRepository extends MongoRepository<Bitacora, String>{
     
 }
+
+

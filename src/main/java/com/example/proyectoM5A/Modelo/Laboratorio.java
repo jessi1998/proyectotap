@@ -14,9 +14,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
  * @author Jessica Alvarez
  */
 @Data
-
+@Document
 public class Laboratorio {
 @Id
+private String id_laboratorio;
 private int numero_edificio;
 private int numero_laboratorio;
 private String descripcion;

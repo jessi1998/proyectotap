@@ -19,6 +19,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Bitacora {
   @Id
+  private String id_bitacora;
   private Date fecha;
   private String descripcion;
   private int id_estudiante;

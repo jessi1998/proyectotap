@@ -18,6 +18,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Equipo {
 @Id
+private String id_equipo;
 private int numero_equipo;
 private String codigo_equipo;
 private int id_laboratorio;
